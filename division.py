@@ -6,6 +6,9 @@ print("DIVISOR DE NÚMEROS")
 dividendo = int(input("Escriba el dividendo: "))
 divisor = int(input("Escriba el divisor: "))
 
+if divisor == 0:
+  print("No se puede dividir por cero.")
+  exit()
 
 cociente = dividendo / divisor
 resto = dividendo % divisor
