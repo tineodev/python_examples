@@ -44,9 +44,9 @@ print(f"{cantidad} centímetros son ", end="")
 
 # * No imprime valores innecesarios
 if cociente_km != 0:
-  print(f"{cociente_km}km ", end="")
+  print(f"{cociente_km}km, ", end="")
 if cociente_m != 0:
-  print(f"{cociente_m}m ", end="")
+  print(f"{cociente_m}m, ", end="")
 if residuo_cm !=0:
   print(f"{residuo_cm}cm.")
 
