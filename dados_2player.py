@@ -1,3 +1,4 @@
+from pprint import pprint
 import time
 import random
 
@@ -54,4 +55,9 @@ if puntaje_p1 > puntaje_p2:
 elif puntaje_p1 < puntaje_p2:
   print(f"Ha ganado {player_2}")
 else:
-  pass
+  if p1_mayor > p2_mayor:
+    print(f"Ha ganado {player_1}")
+  elif p1_mayor < p2_mayor:
+    print(f"Ha ganado {player_2}")
+  else:
+    print(f"Han empatado")
