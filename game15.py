@@ -36,6 +36,7 @@ elif p2_puntaje > 15:
 else:
   if p1_puntaje > p2_puntaje:
     print(f"Ha ganado {player_1}")
-  else:
+  elif p1_puntaje < p2_puntaje:
     print(f"Ha ganado {player_2}")
-
+  else:
+    print("Han empatado")
