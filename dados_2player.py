@@ -30,9 +30,21 @@ print(f"{player_2} ha sacado un {p2_dado1} y un {p2_dado2}")
 
 
 # * Comparacion dados player_1
+if p1_dado1 > p1_dado2:
+  p1_mayor = p1_dado1
+elif p1_dado1 < p1_dado2:
+  p1_mayor = p1_dado2
+else:
+  p1_mayor = p1_dado1
 
 
 # * Comparacion dados player_2
+if p2_dado1 > p2_dado2:
+  p2_mayor = p2_dado1
+elif p2_dado1 < p2_dado2:
+  p2_mayor = p2_dado2
+else:
+  p2_mayor = p2_dado1
 
 
 # * Comparacion dados
